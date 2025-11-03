@@ -3,9 +3,9 @@ package main
 import (
 	"fmt"
 	"log"
-	"week10/pkg/keyboard"
+
 	//"week10/pkg/keyboard"
-	// go get github.com/headfirstgo/keyboard
+	"github.com/headfirstgo/keyboard"
 )
 
 func main() {
@@ -14,5 +14,5 @@ func main() {
 	if err != nil {
 		log.Fatal(err)
 	}
-	fmt.Print(number)
+	fmt.Printf("%0.2f\n", number)
 }
